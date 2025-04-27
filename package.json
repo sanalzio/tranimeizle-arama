@@ -5,7 +5,8 @@
     "type": "module",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "build": "bun build --minify --target=node --outfile=./src/dist/index.mjs src/index.js"
+        "start": "node src/index.js"
+        // "build": "bun build --minify --target=node --outfile=./src/dist/index.mjs src/index.js"
     },
     "keywords": [],
     "author": "sanalzio",
