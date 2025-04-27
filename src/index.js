@@ -34,7 +34,7 @@ app.get('/:query', async (req, res) => {
         }));
 
         res.setHeader('Access-Control-Allow-Origin', '*');
-        res.json([...parsedData, data, query]);
+        res.json(parsedData);
     } catch (error) {
         res.status(500).json({ error: "tranimeizle server error." });
     }
