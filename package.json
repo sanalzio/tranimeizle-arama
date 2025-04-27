@@ -1,0 +1,17 @@
+{
+    "name": "tranimeizle-arama",
+    "version": "1.0.0",
+    "main": "src/index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "bun build --minify --target=node --outfile=./src/dist/index.mjs src/index.js"
+    },
+    "keywords": [],
+    "author": "sanalzio",
+    "license": "GPL-3.0-only",
+    "description": "Tranimeizle sitesinde anime araması yapan basit bir REST API servisi.",
+    "dependencies": {
+        "express": "^5.1.0"
+    }
+}
