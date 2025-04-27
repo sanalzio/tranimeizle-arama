@@ -1,6 +1,9 @@
 # tranimeizle-arama
 `tranimeizle` sitesinde anime araması yapan basit bir REST API servisi.
 
+> [!NOTE] Bildiri
+> `Cloudflare` sorunu nedeniyle `Vercel`'e yükleyemedim. Eh ne de olsa web scraping yapıyor. Lokal olarak çalıştırabilirsiniz.
+
 ## Kullanımı
 `/<aranacak girdi>`
 
